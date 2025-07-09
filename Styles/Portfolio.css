@@ -1,5 +1,8 @@
 
-
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -30,6 +33,9 @@
     border-radius: 5px;
     border: none;
 }
+.secendari-bg{
+    background-color: #FFF8F3;
+}
 /* header style */
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
@@ -39,9 +45,9 @@
 /* nav style */
 nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 50px 225px;
+    align-items: center;
+    padding: 30px 140px;
 }
 nav li{
     list-style-type: none;
@@ -71,4 +77,38 @@ nav li a{
 }
 .banear-profile-pic{
     width: 584px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section styles */
+.about-section{
+    padding: 130px 150px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 130px;
+}
+.section-titel{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-dic{
+    font-size: 18px;
+}
+/* about items */
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-describtion{
+    font-weight: bold;
+    font-size: 20px;
+}
+.item-titel{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 0px;
 }
